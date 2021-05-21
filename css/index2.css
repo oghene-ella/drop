@@ -1,0 +1,182 @@
+html, body, .container{
+    width:100vw;
+    height: 100vh;
+    background-color: rgb(59, 223, 245);
+    margin:0;
+    padding:0;
+    position: relative;
+}
+.container h3{
+    position: absolute;
+    color:rgb(57, 60, 247);
+    font-size: 30px;
+    left:50;
+    top:30;
+}
+.drop{
+    width:315px;
+    height:335px;
+    position:absolute;
+    left:38%;
+    bottom:30%;
+    color: rgb(37, 123, 236);
+    background-color: rgb(9, 90, 241);
+    border-radius:52% 45% 53% 39% / 55% 42% 55% 6%;
+    opacity:1;
+    display:inline-block;
+}
+.drop::before{
+    content:"";
+    position:absolute;
+    height:100%;
+    width:100%;
+    display:inline-block;
+    background-color: rgb(57, 60, 247);
+    border-radius: 52% 45% 53% 39% / 55% 42% 55% 6%;
+    box-shadow: -20px 30px 60px #2b4de2,
+    inset -6px 6px 10px  rgb(37, 123, 236),
+    inset 2px 6px 10px  rgb(37, 123, 236),
+    inset 20px -20px 22px #ffffff,
+    inset 40px -40px 44px #a2c6f8;
+}
+.drop::after{
+    content: "";
+    position: absolute;
+    height: 40px;
+    width:40px;
+    background-color:#E6FDFB;
+    border-radius: 52% 45% 53% 39% / 55% 42% 55% 6%;
+    left:210px;
+    display:inline-block;
+    top:40px;
+    box-shadow: -19px 50px 0 -10px white;
+    opacity:1;
+}
+.container .elly{
+    position:absolute;
+    bottom:30;
+    left:40;
+    color:rgb(11, 15, 223);
+    font-size:28px;
+} 
+@media (min-width:250px) and (max-width:329px){
+    .container h3{
+        font-size: 30px;
+    }
+    .drop{
+        position:absolute;
+        left:11%;
+        bottom:35%;
+        width:220px;
+        height:240px;
+    }
+    .drop::after{
+        position: absolute;
+        height: 35px;
+        width:35px;
+        left:150px;
+    }
+    .container .elly{
+        position:absolute;
+        bottom:30;
+        left:30;
+        font-size:17px;
+    }
+}
+@media (min-width:330px) and (max-width:420px){
+    .container h3{
+        font-size: 30px;
+    }
+    .drop{
+        position:absolute;
+        left:19%;
+        bottom:35%;
+        width:240px;
+        height:250px;
+    }
+    .drop::after{
+        content: "";
+        position: absolute;
+        height: 40px;
+        width:40px;
+        left:160px;
+    }
+    .container .elly{
+        position:absolute;
+        bottom:30;
+        left:40;
+        font-size:20px;
+    }
+}
+@media (min-width:421px) and (max-width:550px){
+    .container h3{
+        font-size: 30px;
+    }
+    .drop{
+        position:absolute;
+        left:29%;
+        bottom:30%;
+        width:280px;
+        height:300px;
+    }
+    .container .elly{
+        position:absolute;
+        bottom:30;
+        left:45;
+        font-size:25px;
+    }
+}
+@media (min-width:551px) and (max-width:650px){
+    .container h3{
+        font-size: 30px;
+    }
+    .drop{
+        position:absolute;
+        left:32%;
+        bottom:30%;
+        width:290px;
+        height:310px;
+    }
+    .container .elly{
+        position:absolute;
+        bottom:30;
+        left:45;
+        font-size:25px;
+    }
+}
+@media (min-width:651px) and (max-width:850px){
+    .container h3{
+        font-size: 30px;
+    }
+    .drop{
+        position:absolute;
+        left:35%;
+        bottom:30%;
+        width:300px;
+        height:315px;
+    }
+    .container .elly{
+        position:absolute;
+        bottom:35;
+        left:45;
+        font-size:28px;
+    }
+}
+@media (min-width:851px) and (max-width:1050px){
+    .container h3{
+        font-size: 30px;
+    }
+    .drop{
+        position:absolute;
+        left:35%;
+        bottom:30%;
+        width:320px;
+        height:335px;
+    }
+    .container .elly{
+        position:absolute;
+        bottom:35;
+        left:45;
+        font-size:28px;
+    }
+}
